@@ -8,7 +8,7 @@ The following was built using [Create React App](https://reactjs.org/docs/create
 
 ### Requirements
 
-[Labs Engineering Standard requirements found here](https://labs.lambdaschool.com/topics/node-js/)
+[Labs Engineering Standard requirements found here](https://docs.labs.lambdaschool.com/standards/)
 
 ### Getting Started
 
