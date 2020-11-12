@@ -1,6 +1,6 @@
 # Basic SPA
 
-Welcome to your `Basic Single Page Application`. Use this to start your own Greenfield Project using ReactJS and common industry standards.
+Welcome to your `Basic Single Page Application Repository`. Use this to start your own Greenfield Project using ReactJS and common industry standards.
 
 This repository assumes a handful of industry practices and standards. We strive to keep you on the bleeding edge of the industry and as a result, we have made some opinions for you so that you don't have to; you're welcome.
 
