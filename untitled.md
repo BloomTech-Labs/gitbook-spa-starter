@@ -1,10 +1,6 @@
 # Deployment
 
-{% hint style="info" %}
-AWS Amplify is only used from the [@lambdalabs/labs](https://docs.labs.lambdaschool.com/guides/labs-cli/create-labs-react-spa) generator when `program=Labs`
-
 **Note: All your applications MUST be deployed to the "US\_east\_1 Virginia" region!**
-{% endhint %}
 
 Navigate to the AWS Amplify console page: `My Account > AWS Management Console > Search "Amplify"`.
 
