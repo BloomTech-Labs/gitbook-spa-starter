@@ -15,8 +15,8 @@ The following was built using [Create React App](https://reactjs.org/docs/create
 #### Environment variables
 
 * `REACT_APP_CLIENT_ID` Okta client id
-* `REACT_APP_OKTA_ISSUER_URI` Okta API authorization server issuer URI \(eg. `https://name-438r8hr.okta.com/oauth2/default`\)
-* `REACT_APP_API_URI` The URL \(localhost or live\) for the Backend that you're building
+* `REACT_APP_OKTA_ISSUER_URI` Okta API authorization server issuer URI (eg. `https://name-438r8hr.okta.com/oauth2/default`)
+* `REACT_APP_API_URI` The URL (localhost or live) for the Backend that you're building
 * Fork and clone the repo to install it as your own remote.
   * **note** please [be sure to set your remote](https://help.github.jp/enterprise/2.11/user/articles/changing-a-remote-s-url/) for this repo to point to your Labs Team Front End Repository.
 * run: `npm install` to download all dependencies.
@@ -26,11 +26,13 @@ The following was built using [Create React App](https://reactjs.org/docs/create
 
 ### Errors on Deploy
 
-Are you seeing an error on`npm start` which looks something like this? 
+Are you seeing an error on`npm start` which looks something like this?&#x20;
 
-![npm start fail](https://tk-assets.lambdaschool.com/e1b1f8c9-612d-4744-b413-36ebf29f0337_image4.png)
+![npm start fail](https://tk-assets.lambdaschool.com/e1b1f8c9-612d-4744-b413-36ebf29f0337\_image4.png)
 
-* Head over to the `package.json` file and please modify your scripts in order to allocate more memory for the 'craco' package. More information on 'craco' and why we use it [can be found here](https://github.com/gsoft-inc/craco).
+*   Head over to the `package.json` file and please modify your scripts in order to allocate more memory for the 'craco' package. More information on 'craco' and why we use it [can be found here](https://github.com/gsoft-inc/craco).
+
+
 
 ```javascript
 "start": "craco --max_old_space_size=4096 start",
@@ -43,21 +45,20 @@ We feel that you shouldn't have to spend time as a developer worrying about wher
 
 * We have provided an example of a simple Plot Charting component that can be built, configured, and delivered for your use by the Data Science Team.
 * We strongly urge you to work in constant collaboration with the data scientists in order to pull in their work into your application, ensure that their work matches the theme and style of your team's application and that the data you pull in represents what problem that team was trying to solve. **This will be a process that requires work and dedication and give-and-take.**
-* **Example Components**: [Please see here for an example](./src/components/pages/ExampleDataViz/README.md) of how to work w/ `Plotly.js` and `React-Plotly.js`.
+* **Example Components**: [Please see here for an example](https://app.gitbook.com/s/-MFkeNssbubZBeQUa9mI/src/components/pages/ExampleDataViz/README.md) of how to work w/ `Plotly.js` and `React-Plotly.js`.
 
 ### Testing your App.
 
-In accordance with our [Labs Engineering Standards](https://docs.labs.lambdaschool.com/standards/) this app uses common practices for Unit/Integration Testing using:
+In accordance with our [Labs Engineering Standards](https://bloomtechlabs.gitbook.io/standards/) this app uses common practices for Unit/Integration Testing using:
 
 [React Testing Library](https://github.com/testing-library/react-testing-library)
 
-[Jest](https://jestjs.io/)
+[Jest](https://jestjs.io)
 
-For examples on how to test your application and more information please see [the following documentation](./src/__tests__/README.md).
+For examples on how to test your application and more information please see [the following documentation](https://app.gitbook.com/s/-MFkeNssbubZBeQUa9mI/src/\_\_tests\_\_/README.md).
 
 ### Contributing
 
-As this repository is a Work In Progress \(WIP\) we'd love to hear more about what is working for you and what could be improved. [Please use the `Issues` tab in Github](https://github.com/Lambda-School-Labs/labs-spa-starter/issues) to submit and file any issues that come up during your development cycle. Issues should be related to things like, documentation, bugs that come up with the existing flow, architectural discussion, suggestions for improvements, and anything that you find cumbersome about getting started and working through a product cycle using these tools.
+As this repository is a Work In Progress (WIP) we'd love to hear more about what is working for you and what could be improved.[ Please use the `Issues` tab in Github ](https://github.com/BloomTech-Labs/labs-spa-starter/issues)to submit and file any issues that come up during your development cycle. Issues should be related to things like, documentation, bugs that come up with the existing flow, architectural discussion, suggestions for improvements, and anything that you find cumbersome about getting started and working through a product cycle using these tools.
 
 **Please use `Labels` when filing issues** try and include screenshots of bugs and steps to reproduce.
-
